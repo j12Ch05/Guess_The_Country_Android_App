@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/category"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#61A4AB"
+    tools:context=".MainActivity">
+
+    <!-- CardView with top constraint and clean layout params -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/flagCardView"
+        android:layout_width="240dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="60dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/myImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="Country Flag"
+            android:scaleType="fitXY"
+            android:src="@drawable/random_flag_hidden"
+            android:visibility="visible" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- TextView constrained under the flag -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/dancing_script"
+        android:gravity="center"
+        android:text="Guess The Country"
+        android:textColor="#FFFFFF"
+        android:textSize="42sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/flagCardView" />
+
+   <com.google.android.material.button.MaterialButton
+       android:id="@+id/btEasy"
+       android:layout_width="175dp"
+       android:layout_height="60dp"
+       android:layout_marginTop="40dp"
+       android:text="Easy"
+       android:textColor="#FFFFFF"
+       android:textSize="23sp"
+       app:backgroundTint="#1E3E47"
+       app:cornerRadius="12dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/title"/>
+
+
+   <com.google.android.material.button.MaterialButton
+       android:id="@+id/btMedium"
+       android:layout_width="175dp"
+       android:layout_height="60dp"
+       android:layout_marginTop="13dp"
+       android:text="Medium"
+       android:textColor="#FFFFFF"
+       android:textSize="23sp"
+       android:backgroundTint="#1E3E47"
+       app:cornerRadius="12dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/btEasy"/>
+
+   <com.google.android.material.button.MaterialButton
+       android:id="@+id/btHard"
+       android:layout_width="175dp"
+       android:layout_height="60dp"
+       android:layout_marginTop="13dp"
+       android:text="Hard"
+       android:textColor="#FFFFFF"
+       android:textSize="23sp"
+       android:backgroundTint="#1E3E47"
+       app:cornerRadius="12dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/btMedium"/>
+
+   <com.google.android.material.button.MaterialButton
+       android:layout_width="175dp"
+       android:layout_height="60dp"
+       android:layout_marginTop="13dp"
+       android:text="Very Hard"
+       android:textColor="#FFFFFF"
+       android:textSize="23sp"
+       android:backgroundTint="#1E3E47"
+       app:cornerRadius="12dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/btHard"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

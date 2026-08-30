@@ -5,27 +5,75 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1877F2"
+    android:background="#61A4AB"
     tools:context=".MainActivity">
 
+    <!-- CardView with top constraint and clean layout params -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/flagCardView"
+        android:layout_width="240dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="60dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <ImageView
-        android:id="@+id/myImageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@"
-        android:contentDescription="Image description for accessibility"
-        android:scaleType="centerCrop" />
+        <ImageView
+            android:id="@+id/myImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="Country Flag"
+            android:scaleType="fitXY"
+            android:src="@drawable/random_flag_hidden"
+            android:visibility="visible" />
 
+    </androidx.cardview.widget.CardView>
+
+    <!-- TextView constrained under the flag -->
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/title"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/lilita_one_regular"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/dancing_script"
         android:gravity="center"
         android:text="Guess The Country"
-        android:textSize="32dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="289dp"
-        android:textColor="#FFFF"/>
+        android:textColor="#FFFFFF"
+        android:textSize="42sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/flagCardView" />
+
+    <!-- Start Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btStart"
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:text="Start"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        app:backgroundTint="#1E3E47"
+        app:cornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <!-- Endless Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btEndless"
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="Endless"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        app:backgroundTint="#1E3E47"
+        app:cornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btStart" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
