@@ -1,0 +1,1932 @@
+[
+  {
+    "id": "AFG",
+    "iso2": "AF",
+    "country": "Afghanistan",
+    "capital": "Kabul",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/afg.png",
+    "flag_hidden_file": "flags_hidden/AFG.png"
+  },
+  {
+    "id": "ALB",
+    "iso2": "AL",
+    "country": "Albania",
+    "capital": "Tirana",
+    "region": "Europe",
+    "difficulty": 3,
+    "flag_file": "drawable/alb.png",
+    "flag_hidden_file": "flags_hidden/ALB.png"
+  },
+  {
+    "id": "DZA",
+    "iso2": "DZ",
+    "country": "Algeria",
+    "capital": "Algiers",
+    "region": "Africa",
+    "difficulty": 1,
+    "flag_file": "drawable/dza.png",
+    "flag_hidden_file": "flags_hidden/DZA.png"
+  },
+  {
+    "id": "AND",
+    "iso2": "AD",
+    "country": "Andorra",
+    "capital": "Andorra la Vella",
+    "region": "Europe",
+    "difficulty": 4,
+    "flag_file": "drawable/and.png",
+    "flag_hidden_file": "flags_hidden/AND.png"
+  },
+  {
+    "id": "AGO",
+    "iso2": "AO",
+    "country": "Angola",
+    "capital": "Luanda",
+    "region": "Africa",
+    "difficulty": 1,
+    "flag_file": "drawable/ago.png",
+    "flag_hidden_file": "flags_hidden/AGO.png"
+  },
+  {
+    "id": "ATG",
+    "iso2": "AG",
+    "country": "Antigua and Barbuda",
+    "capital": "Saint John's",
+    "region": "Americas",
+    "difficulty": 4,
+    "flag_file": "drawable/atg.png",
+    "flag_hidden_file": "flags_hidden/ATG.png"
+  },
+  {
+    "id": "ARG",
+    "iso2": "AR",
+    "country": "Argentina",
+    "capital": "Buenos Aires",
+    "region": "Americas",
+    "difficulty": 1,
+    "flag_file": "drawable/arg.png",
+    "flag_hidden_file": "flags_hidden/ARG.png"
+  },
+  {
+    "id": "ARM",
+    "iso2": "AM",
+    "country": "Armenia",
+    "capital": "Yerevan",
+    "region": "Asia",
+    "difficulty": 3,
+    "flag_file": "drawable/arm.png",
+    "flag_hidden_file": "flags_hidden/ARM.png"
+  },
+  {
+    "id": "AUS",
+    "iso2": "AU",
+    "country": "Australia",
+    "capital": "Canberra",
+    "region": "Oceania",
+    "difficulty": 2,
+    "flag_file": "drawable/aus.png",
+    "flag_hidden_file": "flags_hidden/AUS.png"
+  },
+  {
+    "id": "AUT",
+    "iso2": "AT",
+    "country": "Austria",
+    "capital": "Vienna",
+    "region": "Europe",
+    "difficulty": 2,
+    "flag_file": "drawable/aut.png",
+    "flag_hidden_file": "flags_hidden/AUT.png"
+  },
+  {
+    "id": "AZE",
+    "iso2": "AZ",
+    "country": "Azerbaijan",
+    "capital": "Baku",
+    "region": "Asia",
+    "difficulty": 2,
+    "flag_file": "drawable/aze.png",
+    "flag_hidden_file": "flags_hidden/AZE.png"
+  },
+  {
+    "id": "BHS",
+    "iso2": "BS",
+    "country": "Bahamas",
+    "capital": "Nassau",
+    "region": "Americas",
+    "difficulty": 4,
+    "flag_file": "drawable/bhs.png",
+    "flag_hidden_file": "flags_hidden/BHS.png"
+  },
+  {
+    "id": "BHR",
+    "iso2": "BH",
+    "country": "Bahrain",
+    "capital": "Manama",
+    "region": "Asia",
+    "difficulty": 4,
+    "flag_file": "drawable/bhr.png",
+    "flag_hidden_file": "flags_hidden/BHR.png"
+  },
+  {
+    "id": "BGD",
+    "iso2": "BD",
+    "country": "Bangladesh",
+    "capital": "Dhaka",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/bgd.png",
+    "flag_hidden_file": "flags_hidden/BGD.png"
+  },
+  {
+    "id": "BRB",
+    "iso2": "BB",
+    "country": "Barbados",
+    "capital": "Bridgetown",
+    "region": "Americas",
+    "difficulty": 4,
+    "flag_file": "drawable/brb.png",
+    "flag_hidden_file": "flags_hidden/BRB.png"
+  },
+  {
+    "id": "BLR",
+    "iso2": "BY",
+    "country": "Belarus",
+    "capital": "Minsk",
+    "region": "Europe",
+    "difficulty": 2,
+    "flag_file": "drawable/blr.png",
+    "flag_hidden_file": "flags_hidden/BLR.png"
+  },
+  {
+    "id": "BEL",
+    "iso2": "BE",
+    "country": "Belgium",
+    "capital": "Brussels",
+    "region": "Europe",
+    "difficulty": 2,
+    "flag_file": "drawable/bel.png",
+    "flag_hidden_file": "flags_hidden/BEL.png"
+  },
+  {
+    "id": "BLZ",
+    "iso2": "BZ",
+    "country": "Belize",
+    "capital": "Belmopan",
+    "region": "Americas",
+    "difficulty": 4,
+    "flag_file": "drawable/blz.png",
+    "flag_hidden_file": "flags_hidden/BLZ.png"
+  },
+  {
+    "id": "BEN",
+    "iso2": "BJ",
+    "country": "Benin",
+    "capital": "Porto-Novo",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/ben.png",
+    "flag_hidden_file": "flags_hidden/BEN.png"
+  },
+  {
+    "id": "BTN",
+    "iso2": "BT",
+    "country": "Bhutan",
+    "capital": "Thimphu",
+    "region": "Asia",
+    "difficulty": 4,
+    "flag_file": "drawable/btn.png",
+    "flag_hidden_file": "flags_hidden/BTN.png"
+  },
+  {
+    "id": "BOL",
+    "iso2": "BO",
+    "country": "Bolivia",
+    "capital": "Sucre",
+    "region": "Americas",
+    "difficulty": 2,
+    "flag_file": "drawable/bol.png",
+    "flag_hidden_file": "flags_hidden/BOL.png"
+  },
+  {
+    "id": "BIH",
+    "iso2": "BA",
+    "country": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "region": "Europe",
+    "difficulty": 3,
+    "flag_file": "drawable/bih.png",
+    "flag_hidden_file": "flags_hidden/BIH.png"
+  },
+  {
+    "id": "BWA",
+    "iso2": "BW",
+    "country": "Botswana",
+    "capital": "Gaborone",
+    "region": "Africa",
+    "difficulty": 3,
+    "flag_file": "drawable/bwa.png",
+    "flag_hidden_file": "flags_hidden/BWA.png"
+  },
+  {
+    "id": "BRA",
+    "iso2": "BR",
+    "country": "Brazil",
+    "capital": "Brasília",
+    "region": "Americas",
+    "difficulty": 1,
+    "flag_file": "drawable/bra.png",
+    "flag_hidden_file": "flags_hidden/BRA.png"
+  },
+  {
+    "id": "BRN",
+    "iso2": "BN",
+    "country": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "region": "Asia",
+    "difficulty": 4,
+    "flag_file": "drawable/brn.png",
+    "flag_hidden_file": "flags_hidden/BRN.png"
+  },
+  {
+    "id": "BGR",
+    "iso2": "BG",
+    "country": "Bulgaria",
+    "capital": "Sofia",
+    "region": "Europe",
+    "difficulty": 3,
+    "flag_file": "drawable/bgr.png",
+    "flag_hidden_file": "flags_hidden/BGR.png"
+  },
+  {
+    "id": "BFA",
+    "iso2": "BF",
+    "country": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/bfa.png",
+    "flag_hidden_file": "flags_hidden/BFA.png"
+  },
+  {
+    "id": "BDI",
+    "iso2": "BI",
+    "country": "Burundi",
+    "capital": "Gitega",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/bdi.png",
+    "flag_hidden_file": "flags_hidden/BDI.png"
+  },
+  {
+    "id": "KHM",
+    "iso2": "KH",
+    "country": "Cambodia",
+    "capital": "Phnom Penh",
+    "region": "Asia",
+    "difficulty": 2,
+    "flag_file": "drawable/khm.png",
+    "flag_hidden_file": "flags_hidden/KHM.png"
+  },
+  {
+    "id": "CMR",
+    "iso2": "CM",
+    "country": "Cameroon",
+    "capital": "Yaoundé",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/cmr.png",
+    "flag_hidden_file": "flags_hidden/CMR.png"
+  },
+  {
+    "id": "CAN",
+    "iso2": "CA",
+    "country": "Canada",
+    "capital": "Ottawa",
+    "region": "Americas",
+    "difficulty": 1,
+    "flag_file": "drawable/can.png",
+    "flag_hidden_file": "flags_hidden/CAN.png"
+  },
+  {
+    "id": "CPV",
+    "iso2": "CV",
+    "country": "Cape Verde",
+    "capital": "Praia",
+    "region": "Africa",
+    "difficulty": 4,
+    "flag_file": "drawable/cpv.png",
+    "flag_hidden_file": "flags_hidden/CPV.png"
+  },
+  {
+    "id": "CAF",
+    "iso2": "CF",
+    "country": "Central African Republic",
+    "capital": "Bangui",
+    "region": "Africa",
+    "difficulty": 3,
+    "flag_file": "drawable/caf.png",
+    "flag_hidden_file": "flags_hidden/CAF.png"
+  },
+  {
+    "id": "TCD",
+    "iso2": "TD",
+    "country": "Chad",
+    "capital": "N'Djamena",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/tcd.png",
+    "flag_hidden_file": "flags_hidden/TCD.png"
+  },
+  {
+    "id": "CHL",
+    "iso2": "CL",
+    "country": "Chile",
+    "capital": "Santiago",
+    "region": "Americas",
+    "difficulty": 2,
+    "flag_file": "drawable/chl.png",
+    "flag_hidden_file": "flags_hidden/CHL.png"
+  },
+  {
+    "id": "CHN",
+    "iso2": "CN",
+    "country": "China",
+    "capital": "Beijing",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/chn.png",
+    "flag_hidden_file": "flags_hidden/CHN.png"
+  },
+  {
+    "id": "COL",
+    "iso2": "CO",
+    "country": "Colombia",
+    "capital": "Bogotá",
+    "region": "Americas",
+    "difficulty": 1,
+    "flag_file": "drawable/col.png",
+    "flag_hidden_file": "flags_hidden/COL.png"
+  },
+  {
+    "id": "COM",
+    "iso2": "KM",
+    "country": "Comoros",
+    "capital": "Moroni",
+    "region": "Africa",
+    "difficulty": 4,
+    "flag_file": "drawable/com.png",
+    "flag_hidden_file": "flags_hidden/COM.png"
+  },
+  {
+    "id": "COG",
+    "iso2": "CG",
+    "country": "Congo",
+    "capital": "Brazzaville",
+    "region": "Africa",
+    "difficulty": 3,
+    "flag_file": "drawable/cog.png",
+    "flag_hidden_file": "flags_hidden/COG.png"
+  },
+  {
+    "id": "CRI",
+    "iso2": "CR",
+    "country": "Costa Rica",
+    "capital": "San José",
+    "region": "Americas",
+    "difficulty": 3,
+    "flag_file": "drawable/cri.png",
+    "flag_hidden_file": "flags_hidden/CRI.png"
+  },
+  {
+    "id": "HRV",
+    "iso2": "HR",
+    "country": "Croatia",
+    "capital": "Zagreb",
+    "region": "Europe",
+    "difficulty": 3,
+    "flag_file": "drawable/hrv.png",
+    "flag_hidden_file": "flags_hidden/HRV.png"
+  },
+  {
+    "id": "CUB",
+    "iso2": "CU",
+    "country": "Cuba",
+    "capital": "Havana",
+    "region": "Americas",
+    "difficulty": 2,
+    "flag_file": "drawable/cub.png",
+    "flag_hidden_file": "flags_hidden/CUB.png"
+  },
+  {
+    "id": "CYP",
+    "iso2": "CY",
+    "country": "Cyprus",
+    "capital": "Nicosia",
+    "region": "Europe",
+    "difficulty": 4,
+    "flag_file": "drawable/cyp.png",
+    "flag_hidden_file": "flags_hidden/CYP.png"
+  },
+  {
+    "id": "CZE",
+    "iso2": "CZ",
+    "country": "Czechia",
+    "capital": "Prague",
+    "region": "Europe",
+    "difficulty": 2,
+    "flag_file": "drawable/cze.png",
+    "flag_hidden_file": "flags_hidden/CZE.png"
+  },
+  {
+    "id": "COD",
+    "iso2": "CD",
+    "country": "DR Congo",
+    "capital": "Kinshasa",
+    "region": "Africa",
+    "difficulty": 1,
+    "flag_file": "drawable/cod.png",
+    "flag_hidden_file": "flags_hidden/COD.png"
+  },
+  {
+    "id": "DNK",
+    "iso2": "DK",
+    "country": "Denmark",
+    "capital": "Copenhagen",
+    "region": "Europe",
+    "difficulty": 3,
+    "flag_file": "drawable/dnk.png",
+    "flag_hidden_file": "flags_hidden/DNK.png"
+  },
+  {
+    "id": "DJI",
+    "iso2": "DJ",
+    "country": "Djibouti",
+    "capital": "Djibouti",
+    "region": "Africa",
+    "difficulty": 4,
+    "flag_file": "drawable/dji.png",
+    "flag_hidden_file": "flags_hidden/DJI.png"
+  },
+  {
+    "id": "DMA",
+    "iso2": "DM",
+    "country": "Dominica",
+    "capital": "Roseau",
+    "region": "Americas",
+    "difficulty": 4,
+    "flag_file": "drawable/dma.png",
+    "flag_hidden_file": "flags_hidden/DMA.png"
+  },
+  {
+    "id": "DOM",
+    "iso2": "DO",
+    "country": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "region": "Americas",
+    "difficulty": 2,
+    "flag_file": "drawable/dom.png",
+    "flag_hidden_file": "flags_hidden/DOM.png"
+  },
+  {
+    "id": "ECU",
+    "iso2": "EC",
+    "country": "Ecuador",
+    "capital": "Quito",
+    "region": "Americas",
+    "difficulty": 2,
+    "flag_file": "drawable/ecu.png",
+    "flag_hidden_file": "flags_hidden/ECU.png"
+  },
+  {
+    "id": "EGY",
+    "iso2": "EG",
+    "country": "Egypt",
+    "capital": "Cairo",
+    "region": "Africa",
+    "difficulty": 1,
+    "flag_file": "drawable/egy.png",
+    "flag_hidden_file": "flags_hidden/EGY.png"
+  },
+  {
+    "id": "SLV",
+    "iso2": "SV",
+    "country": "El Salvador",
+    "capital": "San Salvador",
+    "region": "Americas",
+    "difficulty": 3,
+    "flag_file": "drawable/slv.png",
+    "flag_hidden_file": "flags_hidden/SLV.png"
+  },
+  {
+    "id": "GNQ",
+    "iso2": "GQ",
+    "country": "Equatorial Guinea",
+    "capital": "Malabo",
+    "region": "Africa",
+    "difficulty": 4,
+    "flag_file": "drawable/gnq.png",
+    "flag_hidden_file": "flags_hidden/GNQ.png"
+  },
+  {
+    "id": "ERI",
+    "iso2": "ER",
+    "country": "Eritrea",
+    "capital": "Asmara",
+    "region": "Africa",
+    "difficulty": 3,
+    "flag_file": "drawable/eri.png",
+    "flag_hidden_file": "flags_hidden/ERI.png"
+  },
+  {
+    "id": "EST",
+    "iso2": "EE",
+    "country": "Estonia",
+    "capital": "Tallinn",
+    "region": "Europe",
+    "difficulty": 4,
+    "flag_file": "drawable/est.png",
+    "flag_hidden_file": "flags_hidden/EST.png"
+  },
+  {
+    "id": "SWZ",
+    "iso2": "SZ",
+    "country": "Eswatini",
+    "capital": "Lobamba",
+    "region": "Africa",
+    "difficulty": 4,
+    "flag_file": "drawable/swz.png",
+    "flag_hidden_file": "flags_hidden/SWZ.png"
+  },
+  {
+    "id": "ETH",
+    "iso2": "ET",
+    "country": "Ethiopia",
+    "capital": "Addis Ababa",
+    "region": "Africa",
+    "difficulty": 1,
+    "flag_file": "drawable/eth.png",
+    "flag_hidden_file": "flags_hidden/ETH.png"
+  },
+  {
+    "id": "FJI",
+    "iso2": "FJ",
+    "country": "Fiji",
+    "capital": "Suva",
+    "region": "Oceania",
+    "difficulty": 4,
+    "flag_file": "drawable/fji.png",
+    "flag_hidden_file": "flags_hidden/FJI.png"
+  },
+  {
+    "id": "FIN",
+    "iso2": "FI",
+    "country": "Finland",
+    "capital": "Helsinki",
+    "region": "Europe",
+    "difficulty": 3,
+    "flag_file": "drawable/fin.png",
+    "flag_hidden_file": "flags_hidden/FIN.png"
+  },
+  {
+    "id": "FRA",
+    "iso2": "FR",
+    "country": "France",
+    "capital": "Paris",
+    "region": "Europe",
+    "difficulty": 1,
+    "flag_file": "drawable/fra.png",
+    "flag_hidden_file": "flags_hidden/FRA.png"
+  },
+  {
+    "id": "GAB",
+    "iso2": "GA",
+    "country": "Gabon",
+    "capital": "Libreville",
+    "region": "Africa",
+    "difficulty": 3,
+    "flag_file": "drawable/gab.png",
+    "flag_hidden_file": "flags_hidden/GAB.png"
+  },
+  {
+    "id": "GMB",
+    "iso2": "GM",
+    "country": "Gambia",
+    "capital": "Banjul",
+    "region": "Africa",
+    "difficulty": 3,
+    "flag_file": "drawable/gmb.png",
+    "flag_hidden_file": "flags_hidden/GMB.png"
+  },
+  {
+    "id": "GEO",
+    "iso2": "GE",
+    "country": "Georgia",
+    "capital": "Tbilisi",
+    "region": "Asia",
+    "difficulty": 3,
+    "flag_file": "drawable/geo.png",
+    "flag_hidden_file": "flags_hidden/GEO.png"
+  },
+  {
+    "id": "DEU",
+    "iso2": "DE",
+    "country": "Germany",
+    "capital": "Berlin",
+    "region": "Europe",
+    "difficulty": 1,
+    "flag_file": "drawable/deu.png",
+    "flag_hidden_file": "flags_hidden/DEU.png"
+  },
+  {
+    "id": "GHA",
+    "iso2": "GH",
+    "country": "Ghana",
+    "capital": "Accra",
+    "region": "Africa",
+    "difficulty": 1,
+    "flag_file": "drawable/gha.png",
+    "flag_hidden_file": "flags_hidden/GHA.png"
+  },
+  {
+    "id": "GRC",
+    "iso2": "GR",
+    "country": "Greece",
+    "capital": "Athens",
+    "region": "Europe",
+    "difficulty": 2,
+    "flag_file": "drawable/grc.png",
+    "flag_hidden_file": "flags_hidden/GRC.png"
+  },
+  {
+    "id": "GRD",
+    "iso2": "GD",
+    "country": "Grenada",
+    "capital": "St. George's",
+    "region": "Americas",
+    "difficulty": 4,
+    "flag_file": "drawable/grd.png",
+    "flag_hidden_file": "flags_hidden/GRD.png"
+  },
+  {
+    "id": "GTM",
+    "iso2": "GT",
+    "country": "Guatemala",
+    "capital": "Guatemala City",
+    "region": "Americas",
+    "difficulty": 2,
+    "flag_file": "drawable/gtm.png",
+    "flag_hidden_file": "flags_hidden/GTM.png"
+  },
+  {
+    "id": "GIN",
+    "iso2": "GN",
+    "country": "Guinea",
+    "capital": "Conakry",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/gin.png",
+    "flag_hidden_file": "flags_hidden/GIN.png"
+  },
+  {
+    "id": "GNB",
+    "iso2": "GW",
+    "country": "Guinea-Bissau",
+    "capital": "Bissau",
+    "region": "Africa",
+    "difficulty": 4,
+    "flag_file": "drawable/gnb.png",
+    "flag_hidden_file": "flags_hidden/GNB.png"
+  },
+  {
+    "id": "GUY",
+    "iso2": "GY",
+    "country": "Guyana",
+    "capital": "Georgetown",
+    "region": "Americas",
+    "difficulty": 4,
+    "flag_file": "drawable/guy.png",
+    "flag_hidden_file": "flags_hidden/GUY.png"
+  },
+  {
+    "id": "HTI",
+    "iso2": "HT",
+    "country": "Haiti",
+    "capital": "Port-au-Prince",
+    "region": "Americas",
+    "difficulty": 2,
+    "flag_file": "drawable/hti.png",
+    "flag_hidden_file": "flags_hidden/HTI.png"
+  },
+  {
+    "id": "HND",
+    "iso2": "HN",
+    "country": "Honduras",
+    "capital": "Tegucigalpa",
+    "region": "Americas",
+    "difficulty": 2,
+    "flag_file": "drawable/hnd.png",
+    "flag_hidden_file": "flags_hidden/HND.png"
+  },
+  {
+    "id": "HUN",
+    "iso2": "HU",
+    "country": "Hungary",
+    "capital": "Budapest",
+    "region": "Europe",
+    "difficulty": 2,
+    "flag_file": "drawable/hun.png",
+    "flag_hidden_file": "flags_hidden/HUN.png"
+  },
+  {
+    "id": "ISL",
+    "iso2": "IS",
+    "country": "Iceland",
+    "capital": "Reykjavik",
+    "region": "Europe",
+    "difficulty": 4,
+    "flag_file": "drawable/isl.png",
+    "flag_hidden_file": "flags_hidden/ISL.png"
+  },
+  {
+    "id": "IND",
+    "iso2": "IN",
+    "country": "India",
+    "capital": "New Delhi",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/ind.png",
+    "flag_hidden_file": "flags_hidden/IND.png"
+  },
+  {
+    "id": "IDN",
+    "iso2": "ID",
+    "country": "Indonesia",
+    "capital": "Jakarta",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/idn.png",
+    "flag_hidden_file": "flags_hidden/IDN.png"
+  },
+  {
+    "id": "IRN",
+    "iso2": "IR",
+    "country": "Iran",
+    "capital": "Tehran",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/irn.png",
+    "flag_hidden_file": "flags_hidden/IRN.png"
+  },
+  {
+    "id": "IRQ",
+    "iso2": "IQ",
+    "country": "Iraq",
+    "capital": "Baghdad",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/irq.png",
+    "flag_hidden_file": "flags_hidden/IRQ.png"
+  },
+  {
+    "id": "IRL",
+    "iso2": "IE",
+    "country": "Ireland",
+    "capital": "Dublin",
+    "region": "Europe",
+    "difficulty": 3,
+    "flag_file": "drawable/irl.png",
+    "flag_hidden_file": "flags_hidden/IRL.png"
+  },
+  {
+    "id": "ITA",
+    "iso2": "IT",
+    "country": "Italy",
+    "capital": "Rome",
+    "region": "Europe",
+    "difficulty": 1,
+    "flag_file": "drawable/ita.png",
+    "flag_hidden_file": "flags_hidden/ITA.png"
+  },
+  {
+    "id": "CIV",
+    "iso2": "CI",
+    "country": "Ivory Coast",
+    "capital": "Yamoussoukro",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/civ.png",
+    "flag_hidden_file": "flags_hidden/CIV.png"
+  },
+  {
+    "id": "JAM",
+    "iso2": "JM",
+    "country": "Jamaica",
+    "capital": "Kingston",
+    "region": "Americas",
+    "difficulty": 3,
+    "flag_file": "drawable/jam.png",
+    "flag_hidden_file": "flags_hidden/JAM.png"
+  },
+  {
+    "id": "JPN",
+    "iso2": "JP",
+    "country": "Japan",
+    "capital": "Tokyo",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/jpn.png",
+    "flag_hidden_file": "flags_hidden/JPN.png"
+  },
+  {
+    "id": "JOR",
+    "iso2": "JO",
+    "country": "Jordan",
+    "capital": "Amman",
+    "region": "Asia",
+    "difficulty": 2,
+    "flag_file": "drawable/jor.png",
+    "flag_hidden_file": "flags_hidden/JOR.png"
+  },
+  {
+    "id": "KAZ",
+    "iso2": "KZ",
+    "country": "Kazakhstan",
+    "capital": "Astana",
+    "region": "Asia",
+    "difficulty": 2,
+    "flag_file": "drawable/kaz.png",
+    "flag_hidden_file": "flags_hidden/KAZ.png"
+  },
+  {
+    "id": "KEN",
+    "iso2": "KE",
+    "country": "Kenya",
+    "capital": "Nairobi",
+    "region": "Africa",
+    "difficulty": 1,
+    "flag_file": "drawable/ken.png",
+    "flag_hidden_file": "flags_hidden/KEN.png"
+  },
+  {
+    "id": "KIR",
+    "iso2": "KI",
+    "country": "Kiribati",
+    "capital": "South Tarawa",
+    "region": "Oceania",
+    "difficulty": 4,
+    "flag_file": "drawable/kir.png",
+    "flag_hidden_file": "flags_hidden/KIR.png"
+  },
+  {
+    "id": "KWT",
+    "iso2": "KW",
+    "country": "Kuwait",
+    "capital": "Kuwait City",
+    "region": "Asia",
+    "difficulty": 3,
+    "flag_file": "drawable/kwt.png",
+    "flag_hidden_file": "flags_hidden/KWT.png"
+  },
+  {
+    "id": "KGZ",
+    "iso2": "KG",
+    "country": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "region": "Asia",
+    "difficulty": 3,
+    "flag_file": "drawable/kgz.png",
+    "flag_hidden_file": "flags_hidden/KGZ.png"
+  },
+  {
+    "id": "LAO",
+    "iso2": "LA",
+    "country": "Laos",
+    "capital": "Vientiane",
+    "region": "Asia",
+    "difficulty": 3,
+    "flag_file": "drawable/lao.png",
+    "flag_hidden_file": "flags_hidden/LAO.png"
+  },
+  {
+    "id": "LVA",
+    "iso2": "LV",
+    "country": "Latvia",
+    "capital": "Riga",
+    "region": "Europe",
+    "difficulty": 3,
+    "flag_file": "drawable/lva.png",
+    "flag_hidden_file": "flags_hidden/LVA.png"
+  },
+  {
+    "id": "LBN",
+    "iso2": "LB",
+    "country": "Lebanon",
+    "capital": "Beirut",
+    "region": "Asia",
+    "difficulty": 3,
+    "flag_file": "drawable/lbn.png",
+    "flag_hidden_file": "flags_hidden/LBN.png"
+  },
+  {
+    "id": "LSO",
+    "iso2": "LS",
+    "country": "Lesotho",
+    "capital": "Maseru",
+    "region": "Africa",
+    "difficulty": 3,
+    "flag_file": "drawable/lso.png",
+    "flag_hidden_file": "flags_hidden/LSO.png"
+  },
+  {
+    "id": "LBR",
+    "iso2": "LR",
+    "country": "Liberia",
+    "capital": "Monrovia",
+    "region": "Africa",
+    "difficulty": 3,
+    "flag_file": "drawable/lbr.png",
+    "flag_hidden_file": "flags_hidden/LBR.png"
+  },
+  {
+    "id": "LBY",
+    "iso2": "LY",
+    "country": "Libya",
+    "capital": "Tripoli",
+    "region": "Africa",
+    "difficulty": 3,
+    "flag_file": "drawable/lby.png",
+    "flag_hidden_file": "flags_hidden/LBY.png"
+  },
+  {
+    "id": "LIE",
+    "iso2": "LI",
+    "country": "Liechtenstein",
+    "capital": "Vaduz",
+    "region": "Europe",
+    "difficulty": 4,
+    "flag_file": "drawable/lie.png",
+    "flag_hidden_file": "flags_hidden/LIE.png"
+  },
+  {
+    "id": "LTU",
+    "iso2": "LT",
+    "country": "Lithuania",
+    "capital": "Vilnius",
+    "region": "Europe",
+    "difficulty": 3,
+    "flag_file": "drawable/ltu.png",
+    "flag_hidden_file": "flags_hidden/LTU.png"
+  },
+  {
+    "id": "LUX",
+    "iso2": "LU",
+    "country": "Luxembourg",
+    "capital": "Luxembourg",
+    "region": "Europe",
+    "difficulty": 4,
+    "flag_file": "drawable/lux.png",
+    "flag_hidden_file": "flags_hidden/LUX.png"
+  },
+  {
+    "id": "MDG",
+    "iso2": "MG",
+    "country": "Madagascar",
+    "capital": "Antananarivo",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/mdg.png",
+    "flag_hidden_file": "flags_hidden/MDG.png"
+  },
+  {
+    "id": "MWI",
+    "iso2": "MW",
+    "country": "Malawi",
+    "capital": "Lilongwe",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/mwi.png",
+    "flag_hidden_file": "flags_hidden/MWI.png"
+  },
+  {
+    "id": "MYS",
+    "iso2": "MY",
+    "country": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/mys.png",
+    "flag_hidden_file": "flags_hidden/MYS.png"
+  },
+  {
+    "id": "MDV",
+    "iso2": "MV",
+    "country": "Maldives",
+    "capital": "Malé",
+    "region": "Asia",
+    "difficulty": 4,
+    "flag_file": "drawable/mdv.png",
+    "flag_hidden_file": "flags_hidden/MDV.png"
+  },
+  {
+    "id": "MLI",
+    "iso2": "ML",
+    "country": "Mali",
+    "capital": "Bamako",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/mli.png",
+    "flag_hidden_file": "flags_hidden/MLI.png"
+  },
+  {
+    "id": "MLT",
+    "iso2": "MT",
+    "country": "Malta",
+    "capital": "Valletta",
+    "region": "Europe",
+    "difficulty": 4,
+    "flag_file": "drawable/mlt.png",
+    "flag_hidden_file": "flags_hidden/MLT.png"
+  },
+  {
+    "id": "MHL",
+    "iso2": "MH",
+    "country": "Marshall Islands",
+    "capital": "Majuro",
+    "region": "Oceania",
+    "difficulty": 4,
+    "flag_file": "drawable/mhl.png",
+    "flag_hidden_file": "flags_hidden/MHL.png"
+  },
+  {
+    "id": "MRT",
+    "iso2": "MR",
+    "country": "Mauritania",
+    "capital": "Nouakchott",
+    "region": "Africa",
+    "difficulty": 3,
+    "flag_file": "drawable/mrt.png",
+    "flag_hidden_file": "flags_hidden/MRT.png"
+  },
+  {
+    "id": "MUS",
+    "iso2": "MU",
+    "country": "Mauritius",
+    "capital": "Port Louis",
+    "region": "Africa",
+    "difficulty": 4,
+    "flag_file": "drawable/mus.png",
+    "flag_hidden_file": "flags_hidden/MUS.png"
+  },
+  {
+    "id": "MEX",
+    "iso2": "MX",
+    "country": "Mexico",
+    "capital": "Mexico City",
+    "region": "Americas",
+    "difficulty": 1,
+    "flag_file": "drawable/mex.png",
+    "flag_hidden_file": "flags_hidden/MEX.png"
+  },
+  {
+    "id": "FSM",
+    "iso2": "FM",
+    "country": "Micronesia",
+    "capital": "Palikir",
+    "region": "Oceania",
+    "difficulty": 4,
+    "flag_file": "drawable/fsm.png",
+    "flag_hidden_file": "flags_hidden/FSM.png"
+  },
+  {
+    "id": "MDA",
+    "iso2": "MD",
+    "country": "Moldova",
+    "capital": "Chișinău",
+    "region": "Europe",
+    "difficulty": 3,
+    "flag_file": "drawable/mda.png",
+    "flag_hidden_file": "flags_hidden/MDA.png"
+  },
+  {
+    "id": "MCO",
+    "iso2": "MC",
+    "country": "Monaco",
+    "capital": "Monaco",
+    "region": "Europe",
+    "difficulty": 4,
+    "flag_file": "drawable/mco.png",
+    "flag_hidden_file": "flags_hidden/MCO.png"
+  },
+  {
+    "id": "MNG",
+    "iso2": "MN",
+    "country": "Mongolia",
+    "capital": "Ulan Bator",
+    "region": "Asia",
+    "difficulty": 3,
+    "flag_file": "drawable/mng.png",
+    "flag_hidden_file": "flags_hidden/MNG.png"
+  },
+  {
+    "id": "MNE",
+    "iso2": "ME",
+    "country": "Montenegro",
+    "capital": "Podgorica",
+    "region": "Europe",
+    "difficulty": 4,
+    "flag_file": "drawable/mne.png",
+    "flag_hidden_file": "flags_hidden/MNE.png"
+  },
+  {
+    "id": "MAR",
+    "iso2": "MA",
+    "country": "Morocco",
+    "capital": "Rabat",
+    "region": "Africa",
+    "difficulty": 1,
+    "flag_file": "drawable/mar.png",
+    "flag_hidden_file": "flags_hidden/MAR.png"
+  },
+  {
+    "id": "MOZ",
+    "iso2": "MZ",
+    "country": "Mozambique",
+    "capital": "Maputo",
+    "region": "Africa",
+    "difficulty": 1,
+    "flag_file": "drawable/moz.png",
+    "flag_hidden_file": "flags_hidden/MOZ.png"
+  },
+  {
+    "id": "MMR",
+    "iso2": "MM",
+    "country": "Myanmar",
+    "capital": "Naypyidaw",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/mmr.png",
+    "flag_hidden_file": "flags_hidden/MMR.png"
+  },
+  {
+    "id": "NAM",
+    "iso2": "NA",
+    "country": "Namibia",
+    "capital": "Windhoek",
+    "region": "Africa",
+    "difficulty": 3,
+    "flag_file": "drawable/nam.png",
+    "flag_hidden_file": "flags_hidden/NAM.png"
+  },
+  {
+    "id": "NRU",
+    "iso2": "NR",
+    "country": "Nauru",
+    "capital": "Yaren",
+    "region": "Oceania",
+    "difficulty": 4,
+    "flag_file": "drawable/nru.png",
+    "flag_hidden_file": "flags_hidden/NRU.png"
+  },
+  {
+    "id": "NPL",
+    "iso2": "NP",
+    "country": "Nepal",
+    "capital": "Kathmandu",
+    "region": "Asia",
+    "difficulty": 2,
+    "flag_file": "drawable/npl.png",
+    "flag_hidden_file": "flags_hidden/NPL.png"
+  },
+  {
+    "id": "NLD",
+    "iso2": "NL",
+    "country": "Netherlands",
+    "capital": "Amsterdam",
+    "region": "Europe",
+    "difficulty": 2,
+    "flag_file": "drawable/nld.png",
+    "flag_hidden_file": "flags_hidden/NLD.png"
+  },
+  {
+    "id": "NZL",
+    "iso2": "NZ",
+    "country": "New Zealand",
+    "capital": "Wellington",
+    "region": "Oceania",
+    "difficulty": 3,
+    "flag_file": "drawable/nzl.png",
+    "flag_hidden_file": "flags_hidden/NZL.png"
+  },
+  {
+    "id": "NIC",
+    "iso2": "NI",
+    "country": "Nicaragua",
+    "capital": "Managua",
+    "region": "Americas",
+    "difficulty": 3,
+    "flag_file": "drawable/nic.png",
+    "flag_hidden_file": "flags_hidden/NIC.png"
+  },
+  {
+    "id": "NER",
+    "iso2": "NE",
+    "country": "Niger",
+    "capital": "Niamey",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/ner.png",
+    "flag_hidden_file": "flags_hidden/NER.png"
+  },
+  {
+    "id": "NGA",
+    "iso2": "NG",
+    "country": "Nigeria",
+    "capital": "Abuja",
+    "region": "Africa",
+    "difficulty": 1,
+    "flag_file": "drawable/nga.png",
+    "flag_hidden_file": "flags_hidden/NGA.png"
+  },
+  {
+    "id": "PRK",
+    "iso2": "KP",
+    "country": "North Korea",
+    "capital": "Pyongyang",
+    "region": "Asia",
+    "difficulty": 2,
+    "flag_file": "drawable/prk.png",
+    "flag_hidden_file": "flags_hidden/PRK.png"
+  },
+  {
+    "id": "MKD",
+    "iso2": "MK",
+    "country": "North Macedonia",
+    "capital": "Skopje",
+    "region": "Europe",
+    "difficulty": 3,
+    "flag_file": "drawable/mkd.png",
+    "flag_hidden_file": "flags_hidden/MKD.png"
+  },
+  {
+    "id": "NOR",
+    "iso2": "NO",
+    "country": "Norway",
+    "capital": "Oslo",
+    "region": "Europe",
+    "difficulty": 3,
+    "flag_file": "drawable/nor.png",
+    "flag_hidden_file": "flags_hidden/NOR.png"
+  },
+  {
+    "id": "OMN",
+    "iso2": "OM",
+    "country": "Oman",
+    "capital": "Muscat",
+    "region": "Asia",
+    "difficulty": 3,
+    "flag_file": "drawable/omn.png",
+    "flag_hidden_file": "flags_hidden/OMN.png"
+  },
+  {
+    "id": "PAK",
+    "iso2": "PK",
+    "country": "Pakistan",
+    "capital": "Islamabad",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/pak.png",
+    "flag_hidden_file": "flags_hidden/PAK.png"
+  },
+  {
+    "id": "PLW",
+    "iso2": "PW",
+    "country": "Palau",
+    "capital": "Ngerulmud",
+    "region": "Oceania",
+    "difficulty": 4,
+    "flag_file": "drawable/plw.png",
+    "flag_hidden_file": "flags_hidden/PLW.png"
+  },
+  {
+    "id": "PAN",
+    "iso2": "PA",
+    "country": "Panama",
+    "capital": "Panama City",
+    "region": "Americas",
+    "difficulty": 3,
+    "flag_file": "drawable/pan.png",
+    "flag_hidden_file": "flags_hidden/PAN.png"
+  },
+  {
+    "id": "PNG",
+    "iso2": "PG",
+    "country": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "region": "Oceania",
+    "difficulty": 2,
+    "flag_file": "drawable/png.png",
+    "flag_hidden_file": "flags_hidden/PNG.png"
+  },
+  {
+    "id": "PRY",
+    "iso2": "PY",
+    "country": "Paraguay",
+    "capital": "Asunción",
+    "region": "Americas",
+    "difficulty": 3,
+    "flag_file": "drawable/pry.png",
+    "flag_hidden_file": "flags_hidden/PRY.png"
+  },
+  {
+    "id": "PER",
+    "iso2": "PE",
+    "country": "Peru",
+    "capital": "Lima",
+    "region": "Americas",
+    "difficulty": 1,
+    "flag_file": "drawable/per.png",
+    "flag_hidden_file": "flags_hidden/PER.png"
+  },
+  {
+    "id": "PHL",
+    "iso2": "PH",
+    "country": "Philippines",
+    "capital": "Manila",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/phl.png",
+    "flag_hidden_file": "flags_hidden/PHL.png"
+  },
+  {
+    "id": "POL",
+    "iso2": "PL",
+    "country": "Poland",
+    "capital": "Warsaw",
+    "region": "Europe",
+    "difficulty": 1,
+    "flag_file": "drawable/pol.png",
+    "flag_hidden_file": "flags_hidden/POL.png"
+  },
+  {
+    "id": "PRT",
+    "iso2": "PT",
+    "country": "Portugal",
+    "capital": "Lisbon",
+    "region": "Europe",
+    "difficulty": 2,
+    "flag_file": "drawable/prt.png",
+    "flag_hidden_file": "flags_hidden/PRT.png"
+  },
+  {
+    "id": "QAT",
+    "iso2": "QA",
+    "country": "Qatar",
+    "capital": "Doha",
+    "region": "Asia",
+    "difficulty": 3,
+    "flag_file": "drawable/qat.png",
+    "flag_hidden_file": "flags_hidden/QAT.png"
+  },
+  {
+    "id": "ROU",
+    "iso2": "RO",
+    "country": "Romania",
+    "capital": "Bucharest",
+    "region": "Europe",
+    "difficulty": 2,
+    "flag_file": "drawable/rou.png",
+    "flag_hidden_file": "flags_hidden/ROU.png"
+  },
+  {
+    "id": "RUS",
+    "iso2": "RU",
+    "country": "Russia",
+    "capital": "Moscow",
+    "region": "Europe",
+    "difficulty": 1,
+    "flag_file": "drawable/rus.png",
+    "flag_hidden_file": "flags_hidden/RUS.png"
+  },
+  {
+    "id": "RWA",
+    "iso2": "RW",
+    "country": "Rwanda",
+    "capital": "Kigali",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/rwa.png",
+    "flag_hidden_file": "flags_hidden/RWA.png"
+  },
+  {
+    "id": "KNA",
+    "iso2": "KN",
+    "country": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "region": "Americas",
+    "difficulty": 4,
+    "flag_file": "drawable/kna.png",
+    "flag_hidden_file": "flags_hidden/KNA.png"
+  },
+  {
+    "id": "LCA",
+    "iso2": "LC",
+    "country": "Saint Lucia",
+    "capital": "Castries",
+    "region": "Americas",
+    "difficulty": 4,
+    "flag_file": "drawable/lca.png",
+    "flag_hidden_file": "flags_hidden/LCA.png"
+  },
+  {
+    "id": "VCT",
+    "iso2": "VC",
+    "country": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "region": "Americas",
+    "difficulty": 4,
+    "flag_file": "drawable/vct.png",
+    "flag_hidden_file": "flags_hidden/VCT.png"
+  },
+  {
+    "id": "WSM",
+    "iso2": "WS",
+    "country": "Samoa",
+    "capital": "Apia",
+    "region": "Oceania",
+    "difficulty": 4,
+    "flag_file": "drawable/wsm.png",
+    "flag_hidden_file": "flags_hidden/WSM.png"
+  },
+  {
+    "id": "SMR",
+    "iso2": "SM",
+    "country": "San Marino",
+    "capital": "City of San Marino",
+    "region": "Europe",
+    "difficulty": 4,
+    "flag_file": "drawable/smr.png",
+    "flag_hidden_file": "flags_hidden/SMR.png"
+  },
+  {
+    "id": "SAU",
+    "iso2": "SA",
+    "country": "Saudi Arabia",
+    "capital": "Riyadh",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/sau.png",
+    "flag_hidden_file": "flags_hidden/SAU.png"
+  },
+  {
+    "id": "SEN",
+    "iso2": "SN",
+    "country": "Senegal",
+    "capital": "Dakar",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/sen.png",
+    "flag_hidden_file": "flags_hidden/SEN.png"
+  },
+  {
+    "id": "SRB",
+    "iso2": "RS",
+    "country": "Serbia",
+    "capital": "Belgrade",
+    "region": "Europe",
+    "difficulty": 3,
+    "flag_file": "drawable/srb.png",
+    "flag_hidden_file": "flags_hidden/SRB.png"
+  },
+  {
+    "id": "SYC",
+    "iso2": "SC",
+    "country": "Seychelles",
+    "capital": "Victoria",
+    "region": "Africa",
+    "difficulty": 4,
+    "flag_file": "drawable/syc.png",
+    "flag_hidden_file": "flags_hidden/SYC.png"
+  },
+  {
+    "id": "SLE",
+    "iso2": "SL",
+    "country": "Sierra Leone",
+    "capital": "Freetown",
+    "region": "Africa",
+    "difficulty": 3,
+    "flag_file": "drawable/sle.png",
+    "flag_hidden_file": "flags_hidden/SLE.png"
+  },
+  {
+    "id": "SGP",
+    "iso2": "SG",
+    "country": "Singapore",
+    "capital": "Singapore",
+    "region": "Asia",
+    "difficulty": 3,
+    "flag_file": "drawable/sgp.png",
+    "flag_hidden_file": "flags_hidden/SGP.png"
+  },
+  {
+    "id": "SVK",
+    "iso2": "SK",
+    "country": "Slovakia",
+    "capital": "Bratislava",
+    "region": "Europe",
+    "difficulty": 3,
+    "flag_file": "drawable/svk.png",
+    "flag_hidden_file": "flags_hidden/SVK.png"
+  },
+  {
+    "id": "SVN",
+    "iso2": "SI",
+    "country": "Slovenia",
+    "capital": "Ljubljana",
+    "region": "Europe",
+    "difficulty": 3,
+    "flag_file": "drawable/svn.png",
+    "flag_hidden_file": "flags_hidden/SVN.png"
+  },
+  {
+    "id": "SLB",
+    "iso2": "SB",
+    "country": "Solomon Islands",
+    "capital": "Honiara",
+    "region": "Oceania",
+    "difficulty": 4,
+    "flag_file": "drawable/slb.png",
+    "flag_hidden_file": "flags_hidden/SLB.png"
+  },
+  {
+    "id": "SOM",
+    "iso2": "SO",
+    "country": "Somalia",
+    "capital": "Mogadishu",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/som.png",
+    "flag_hidden_file": "flags_hidden/SOM.png"
+  },
+  {
+    "id": "ZAF",
+    "iso2": "ZA",
+    "country": "South Africa",
+    "capital": "Pretoria",
+    "region": "Africa",
+    "difficulty": 1,
+    "flag_file": "drawable/zaf.png",
+    "flag_hidden_file": "flags_hidden/ZAF.png"
+  },
+  {
+    "id": "KOR",
+    "iso2": "KR",
+    "country": "South Korea",
+    "capital": "Seoul",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/kor.png",
+    "flag_hidden_file": "flags_hidden/KOR.png"
+  },
+  {
+    "id": "SSD",
+    "iso2": "SS",
+    "country": "South Sudan",
+    "capital": "Juba",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/ssd.png",
+    "flag_hidden_file": "flags_hidden/SSD.png"
+  },
+  {
+    "id": "ESP",
+    "iso2": "ES",
+    "country": "Spain",
+    "capital": "Madrid",
+    "region": "Europe",
+    "difficulty": 1,
+    "flag_file": "drawable/esp.png",
+    "flag_hidden_file": "flags_hidden/ESP.png"
+  },
+  {
+    "id": "LKA",
+    "iso2": "LK",
+    "country": "Sri Lanka",
+    "capital": "Colombo",
+    "region": "Asia",
+    "difficulty": 2,
+    "flag_file": "drawable/lka.png",
+    "flag_hidden_file": "flags_hidden/LKA.png"
+  },
+  {
+    "id": "SDN",
+    "iso2": "SD",
+    "country": "Sudan",
+    "capital": "Khartoum",
+    "region": "Africa",
+    "difficulty": 1,
+    "flag_file": "drawable/sdn.png",
+    "flag_hidden_file": "flags_hidden/SDN.png"
+  },
+  {
+    "id": "SUR",
+    "iso2": "SR",
+    "country": "Suriname",
+    "capital": "Paramaribo",
+    "region": "Americas",
+    "difficulty": 4,
+    "flag_file": "drawable/sur.png",
+    "flag_hidden_file": "flags_hidden/SUR.png"
+  },
+  {
+    "id": "SWE",
+    "iso2": "SE",
+    "country": "Sweden",
+    "capital": "Stockholm",
+    "region": "Europe",
+    "difficulty": 2,
+    "flag_file": "drawable/swe.png",
+    "flag_hidden_file": "flags_hidden/SWE.png"
+  },
+  {
+    "id": "CHE",
+    "iso2": "CH",
+    "country": "Switzerland",
+    "capital": "Bern",
+    "region": "Europe",
+    "difficulty": 3,
+    "flag_file": "drawable/che.png",
+    "flag_hidden_file": "flags_hidden/CHE.png"
+  },
+  {
+    "id": "SYR",
+    "iso2": "SY",
+    "country": "Syria",
+    "capital": "Damascus",
+    "region": "Asia",
+    "difficulty": 2,
+    "flag_file": "drawable/syr.png",
+    "flag_hidden_file": "flags_hidden/SYR.png"
+  },
+  {
+    "id": "STP",
+    "iso2": "ST",
+    "country": "São Tomé and Príncipe",
+    "capital": "São Tomé",
+    "region": "Africa",
+    "difficulty": 4,
+    "flag_file": "drawable/stp.png",
+    "flag_hidden_file": "flags_hidden/STP.png"
+  },
+  {
+    "id": "TJK",
+    "iso2": "TJ",
+    "country": "Tajikistan",
+    "capital": "Dushanbe",
+    "region": "Asia",
+    "difficulty": 2,
+    "flag_file": "drawable/tjk.png",
+    "flag_hidden_file": "flags_hidden/TJK.png"
+  },
+  {
+    "id": "TZA",
+    "iso2": "TZ",
+    "country": "Tanzania",
+    "capital": "Dodoma",
+    "region": "Africa",
+    "difficulty": 1,
+    "flag_file": "drawable/tza.png",
+    "flag_hidden_file": "flags_hidden/TZA.png"
+  },
+  {
+    "id": "THA",
+    "iso2": "TH",
+    "country": "Thailand",
+    "capital": "Bangkok",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/tha.png",
+    "flag_hidden_file": "flags_hidden/THA.png"
+  },
+  {
+    "id": "TLS",
+    "iso2": "TL",
+    "country": "Timor-Leste",
+    "capital": "Dili",
+    "region": "Asia",
+    "difficulty": 4,
+    "flag_file": "drawable/tls.png",
+    "flag_hidden_file": "flags_hidden/TLS.png"
+  },
+  {
+    "id": "TGO",
+    "iso2": "TG",
+    "country": "Togo",
+    "capital": "Lomé",
+    "region": "Africa",
+    "difficulty": 3,
+    "flag_file": "drawable/tgo.png",
+    "flag_hidden_file": "flags_hidden/TGO.png"
+  },
+  {
+    "id": "TON",
+    "iso2": "TO",
+    "country": "Tonga",
+    "capital": "Nuku'alofa",
+    "region": "Oceania",
+    "difficulty": 4,
+    "flag_file": "drawable/ton.png",
+    "flag_hidden_file": "flags_hidden/TON.png"
+  },
+  {
+    "id": "TTO",
+    "iso2": "TT",
+    "country": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "region": "Americas",
+    "difficulty": 4,
+    "flag_file": "drawable/tto.png",
+    "flag_hidden_file": "flags_hidden/TTO.png"
+  },
+  {
+    "id": "TUN",
+    "iso2": "TN",
+    "country": "Tunisia",
+    "capital": "Tunis",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/tun.png",
+    "flag_hidden_file": "flags_hidden/TUN.png"
+  },
+  {
+    "id": "TKM",
+    "iso2": "TM",
+    "country": "Turkmenistan",
+    "capital": "Ashgabat",
+    "region": "Asia",
+    "difficulty": 3,
+    "flag_file": "drawable/tkm.png",
+    "flag_hidden_file": "flags_hidden/TKM.png"
+  },
+  {
+    "id": "TUV",
+    "iso2": "TV",
+    "country": "Tuvalu",
+    "capital": "Funafuti",
+    "region": "Oceania",
+    "difficulty": 4,
+    "flag_file": "drawable/tuv.png",
+    "flag_hidden_file": "flags_hidden/TUV.png"
+  },
+  {
+    "id": "TUR",
+    "iso2": "TR",
+    "country": "Türkiye",
+    "capital": "Ankara",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/tur.png",
+    "flag_hidden_file": "flags_hidden/TUR.png"
+  },
+  {
+    "id": "UGA",
+    "iso2": "UG",
+    "country": "Uganda",
+    "capital": "Kampala",
+    "region": "Africa",
+    "difficulty": 1,
+    "flag_file": "drawable/uga.png",
+    "flag_hidden_file": "flags_hidden/UGA.png"
+  },
+  {
+    "id": "UKR",
+    "iso2": "UA",
+    "country": "Ukraine",
+    "capital": "Kyiv",
+    "region": "Europe",
+    "difficulty": 1,
+    "flag_file": "drawable/ukr.png",
+    "flag_hidden_file": "flags_hidden/UKR.png"
+  },
+  {
+    "id": "ARE",
+    "iso2": "AE",
+    "country": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "region": "Asia",
+    "difficulty": 2,
+    "flag_file": "drawable/are.png",
+    "flag_hidden_file": "flags_hidden/ARE.png"
+  },
+  {
+    "id": "GBR",
+    "iso2": "GB",
+    "country": "United Kingdom",
+    "capital": "London",
+    "region": "Europe",
+    "difficulty": 1,
+    "flag_file": "drawable/gbr.png",
+    "flag_hidden_file": "flags_hidden/GBR.png"
+  },
+  {
+    "id": "USA",
+    "iso2": "US",
+    "country": "United States",
+    "capital": "Washington D.C.",
+    "region": "Americas",
+    "difficulty": 1,
+    "flag_file": "drawable/usa.png",
+    "flag_hidden_file": "flags_hidden/USA.png"
+  },
+  {
+    "id": "URY",
+    "iso2": "UY",
+    "country": "Uruguay",
+    "capital": "Montevideo",
+    "region": "Americas",
+    "difficulty": 3,
+    "flag_file": "drawable/ury.png",
+    "flag_hidden_file": "flags_hidden/URY.png"
+  },
+  {
+    "id": "UZB",
+    "iso2": "UZ",
+    "country": "Uzbekistan",
+    "capital": "Tashkent",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/uzb.png",
+    "flag_hidden_file": "flags_hidden/UZB.png"
+  },
+  {
+    "id": "VUT",
+    "iso2": "VU",
+    "country": "Vanuatu",
+    "capital": "Port Vila",
+    "region": "Oceania",
+    "difficulty": 4,
+    "flag_file": "drawable/vut.png",
+    "flag_hidden_file": "flags_hidden/VUT.png"
+  },
+  {
+    "id": "VAT",
+    "iso2": "VA",
+    "country": "Vatican City",
+    "capital": "Vatican City",
+    "region": "Europe",
+    "difficulty": 4,
+    "flag_file": "drawable/vat.png",
+    "flag_hidden_file": "flags_hidden/VAT.png"
+  },
+  {
+    "id": "VEN",
+    "iso2": "VE",
+    "country": "Venezuela",
+    "capital": "Caracas",
+    "region": "Americas",
+    "difficulty": 1,
+    "flag_file": "drawable/ven.png",
+    "flag_hidden_file": "flags_hidden/VEN.png"
+  },
+  {
+    "id": "VNM",
+    "iso2": "VN",
+    "country": "Vietnam",
+    "capital": "Hanoi",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/vnm.png",
+    "flag_hidden_file": "flags_hidden/VNM.png"
+  },
+  {
+    "id": "YEM",
+    "iso2": "YE",
+    "country": "Yemen",
+    "capital": "Sana'a",
+    "region": "Asia",
+    "difficulty": 1,
+    "flag_file": "drawable/yem.png",
+    "flag_hidden_file": "flags_hidden/YEM.png"
+  },
+  {
+    "id": "ZMB",
+    "iso2": "ZM",
+    "country": "Zambia",
+    "capital": "Lusaka",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/zmb.png",
+    "flag_hidden_file": "flags_hidden/ZMB.png"
+  },
+  {
+    "id": "ZWE",
+    "iso2": "ZW",
+    "country": "Zimbabwe",
+    "capital": "Harare",
+    "region": "Africa",
+    "difficulty": 2,
+    "flag_file": "drawable/zwe.png",
+    "flag_hidden_file": "flags_hidden/ZWE.png"
+  }
+]

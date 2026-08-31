@@ -3,6 +3,7 @@ package com.example.guessthecountry
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.guessthecountry.databinding.ActivityEndlessBinding
+import java.lang.reflect.Field
 
 class EndlessActivity(): AppCompatActivity() {
     private lateinit var binding: ActivityEndlessBinding
@@ -12,4 +13,6 @@ class EndlessActivity(): AppCompatActivity() {
         binding = ActivityEndlessBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
+
+
 }
