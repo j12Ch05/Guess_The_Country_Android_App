@@ -20,13 +20,15 @@ class EndlessActivity(): AppCompatActivity() {
     private lateinit var answer: Map<String,String>
     private var buttonNumber: Int = 0
     private var currScore:Int = 0
-
+    private var highScore:Int = 0
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityEndlessBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
 
         loadQuestion()
         val buttons = listOf(binding.btAns1, binding.btAns2, binding.btAns3, binding.btAns4,)
@@ -44,7 +46,9 @@ class EndlessActivity(): AppCompatActivity() {
                         finish()
                     }
 
-                    if ()
+                    if (currScore > highScore){
+                        saveHighScore(currScore)
+                    }
                     binding.currentScore.text = currScore.toString()
                     loadQuestion()
                 } else {
@@ -67,9 +71,23 @@ class EndlessActivity(): AppCompatActivity() {
 
     }
 
+    // Save high score to storage
+    private fun saveHighScore(score: Int) {
+        val sharedPref = getSharedPreferences("QuizPrefs", MODE_PRIVATE)
+        val editor = sharedPref.edit()
+        editor.putInt("HIGH_SCORE", score)
+        editor.apply()
+    }
 
+    // Retrieve high score (returns 0 if none saved yet)
+    private fun getHighScore(): Int {
+        val sharedPref = getSharedPreferences("QuizPrefs", MODE_PRIVATE)
+        return sharedPref.getInt("HIGH_SCORE", 0)
+    }
 
     private fun loadQuestion(){
+        highScore = getHighScore()
+        binding.highScore.text = "$highScore"
         if(countries.isNotEmpty()){
             answer= countries.filterNot{ it["country"] in used}.random()
             used.add(answer["country"])
