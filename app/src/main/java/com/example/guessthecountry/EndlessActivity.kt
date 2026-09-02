@@ -52,7 +52,7 @@ class EndlessActivity(): AppCompatActivity() {
                     binding.currentScore.text = currScore.toString()
                     loadQuestion()
                 } else {
-                    val greenColor = Color.parseColor("#F54927")
+                    val greenColor = Color.parseColor("#8F0404")
                     button.backgroundTintList = ColorStateList.valueOf(greenColor)
                     lifecycleScope.launch {
 
