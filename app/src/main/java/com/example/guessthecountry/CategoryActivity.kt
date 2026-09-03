@@ -8,10 +8,12 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.guessthecountry.databinding.ActivityCategoryBinding
 import java.lang.reflect.Field
 
-class GategoryActivity : AppCompatActivity() {
+class CategoryActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCategoryBinding
     private val handler = Handler(Looper.getMainLooper())
     private var currentIndex = 0
+
+
 
     // Dynamically fetch all drawable IDs ending with "_hidden"
     private val flagDrawables by lazy { getHiddenFlags() }
@@ -34,6 +36,21 @@ class GategoryActivity : AppCompatActivity() {
 
         handler.post(flagAnimationRunnable)
 
+        val buttons = listOf(binding.btEasy,binding.btMedium,binding.btHard,binding.btVeryHard)
+
+        for(button in buttons){
+            button.setOnClickListener {
+                 val intent: Intent = Intent(this, PlayingActivity::class.java)
+
+                when(button.text.toString()){
+                    "Easy" -> intent.putExtra("diff",1)
+                    "Medium" -> intent.putExtra("diff",2)
+                    "Hard" -> intent.putExtra("diff",3)
+                    "Very Hard" -> intent.putExtra("diff",4)
+                }
+                startActivity(intent)
+            }
+        }
 
     }
 

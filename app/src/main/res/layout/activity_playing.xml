@@ -1,50 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
- <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-     xmlns:app="http://schemas.android.com/apk/res-auto"
-     xmlns:tools="http://schemas.android.com/tools"
-     android:id="@+id/endless"
-     android:layout_width="match_parent"
-     android:layout_height="match_parent"
-     android:background="#61A4AB"
-     tools:context=".MainActivity">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/endless"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#61A4AB"
+    tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/high"
+        android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="40dp"
         android:layout_marginTop="25dp"
         android:textColor="#FFFFFF"
-        android:text="High Score"
+        android:text="Easy"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         />
 
-    <TextView
-        android:id="@+id/highScore"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
-        android:gravity="center"
-        android:text="0"
-        android:textColor="#FFFFFF"
-        android:textSize="43dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/high"/>
+
 
     <androidx.cardview.widget.CardView
         android:id = "@+id/flag"
         android:layout_width="240dp"
         android:layout_height="140dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="10dp"
         app:cardCornerRadius="16dp"
         app:cardElevation="2dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/highScore">
+        app:layout_constraintTop_toBottomOf="@id/title">
 
         <ImageView
             android:id="@+id/flagImage"
@@ -62,7 +51,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="0"
+        android:text="0/10"
         android:gravity="center"
         android:textColor="#FFFFFF"
         android:textSize="42sp"

@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun gotoCategory() {
-        val intent = Intent(this, GategoryActivity::class.java)
+        val intent = Intent(this, CategoryActivity::class.java)
         handler.removeCallbacks(flagAnimationRunnable)
         startActivity(intent)
     }
