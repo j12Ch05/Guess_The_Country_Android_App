@@ -42,12 +42,14 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, CategoryActivity::class.java)
         handler.removeCallbacks(flagAnimationRunnable)
         startActivity(intent)
+        finish()
     }
 
     private fun gotoEndless() {
         val intent = Intent(this, EndlessActivity::class.java)
         handler.removeCallbacks(flagAnimationRunnable)
         startActivity(intent)
+        finish()
     }
 
     override fun onDestroy() {

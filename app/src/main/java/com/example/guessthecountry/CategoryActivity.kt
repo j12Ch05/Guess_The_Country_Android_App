@@ -49,6 +49,7 @@ class CategoryActivity : AppCompatActivity() {
                     "Very Hard" -> intent.putExtra("diff","4")
                 }
                 startActivity(intent)
+                finish()
             }
         }
 
