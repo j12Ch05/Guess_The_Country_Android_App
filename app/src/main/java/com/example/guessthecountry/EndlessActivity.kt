@@ -52,8 +52,8 @@ class EndlessActivity(): AppCompatActivity() {
                     binding.currentScore.text = currScore.toString()
                     loadQuestion()
                 } else {
-                    val greenColor = Color.parseColor("#8F0404")
-                    button.backgroundTintList = ColorStateList.valueOf(greenColor)
+                    val redColor = Color.parseColor("#8F0404")
+                    button.backgroundTintList = ColorStateList.valueOf(redColor)
                     lifecycleScope.launch {
 
                         delay(500)
@@ -89,8 +89,8 @@ class EndlessActivity(): AppCompatActivity() {
         highScore = getHighScore()
         binding.highScore.text = "$highScore"
         if(countries.isNotEmpty()){
-            answer= countries.filterNot{ it["country"] in used}.random()
-            used.add(answer["country"])
+            answer= countries.filterNot{ it["id"] in used}.random()
+            used.add(answer["id"])
             val imageName = answer["id"]?.lowercase() ?: ""
 
             val imageRes = resources.getIdentifier(imageName,"drawable",packageName)

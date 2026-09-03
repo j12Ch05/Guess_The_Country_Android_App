@@ -43,10 +43,10 @@ class CategoryActivity : AppCompatActivity() {
                  val intent: Intent = Intent(this, PlayingActivity::class.java)
 
                 when(button.text.toString()){
-                    "Easy" -> intent.putExtra("diff",1)
-                    "Medium" -> intent.putExtra("diff",2)
-                    "Hard" -> intent.putExtra("diff",3)
-                    "Very Hard" -> intent.putExtra("diff",4)
+                    "Easy" -> intent.putExtra("diff","1")
+                    "Medium" -> intent.putExtra("diff","2")
+                    "Hard" -> intent.putExtra("diff","3")
+                    "Very Hard" -> intent.putExtra("diff","4")
                 }
                 startActivity(intent)
             }
