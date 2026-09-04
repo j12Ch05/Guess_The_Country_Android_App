@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import com.example.guessthecountry.databinding.ActivityCategoryBinding
 import java.lang.reflect.Field
@@ -35,6 +36,16 @@ class CategoryActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         handler.post(flagAnimationRunnable)
+        onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                // Re-launch InitialActivity explicitly
+                val intent = Intent(this@CategoryActivity, MainActivity::class.java).apply {
+                    flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+                }
+                startActivity(intent)
+                finish()
+            }
+        })
 
         val buttons = listOf(binding.btEasy,binding.btMedium,binding.btHard,binding.btVeryHard)
 

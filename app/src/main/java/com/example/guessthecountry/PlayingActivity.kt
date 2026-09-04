@@ -4,6 +4,7 @@ import android.content.Intent
 import android.content.res.ColorStateList
 import android.graphics.Color
 import android.os.Bundle
+import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.example.guessthecountry.databinding.ActivityPlayingBinding
@@ -24,6 +25,17 @@ class PlayingActivity(): AppCompatActivity() {
         binding = ActivityPlayingBinding.inflate(layoutInflater)
         setContentView(binding.root)
         val diff = intent.getStringExtra("diff")
+
+        onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                // Re-launch InitialActivity explicitly
+                val intent = Intent(this@PlayingActivity, CategoryActivity::class.java).apply {
+                    flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+                }
+                startActivity(intent)
+                finish()
+            }
+        })
 
         when(diff){
             "1" -> binding.title.text = "Easy"

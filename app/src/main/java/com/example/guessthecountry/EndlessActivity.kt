@@ -4,6 +4,7 @@ import android.content.Intent
 import android.content.res.ColorStateList
 import android.graphics.Color
 import android.os.Bundle
+import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.example.guessthecountry.databinding.ActivityEndlessBinding
@@ -12,6 +13,7 @@ import java.lang.reflect.Field
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import kotlin.jvm.java
 
 class EndlessActivity(): AppCompatActivity() {
     private lateinit var binding: ActivityEndlessBinding
@@ -29,7 +31,16 @@ class EndlessActivity(): AppCompatActivity() {
         setContentView(binding.root)
 
 
-
+        onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                // Re-launch InitialActivity explicitly
+                val intent = Intent(this@EndlessActivity, MainActivity::class.java).apply {
+                    flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+                }
+                startActivity(intent)
+                finish()
+            }
+        })
         loadQuestion()
         val buttons = listOf(binding.btAns1, binding.btAns2, binding.btAns3, binding.btAns4,)
 
