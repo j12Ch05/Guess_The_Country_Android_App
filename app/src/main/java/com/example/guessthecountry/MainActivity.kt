@@ -8,6 +8,9 @@ import android.widget.Button
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.guessthecountry.databinding.ActivityMainBinding
+import com.github.javiersantos.appupdater.AppUpdater
+import com.github.javiersantos.appupdater.enums.Display
+import com.github.javiersantos.appupdater.enums.UpdateFrom
 import java.lang.reflect.Field
 
 class MainActivity : AppCompatActivity() {
@@ -33,6 +36,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        AppUpdater(this)
+            .setUpdateFrom(UpdateFrom.GITHUB)
+            .setGitHubUserAndRepo("j12Ch05", "Guess_The_Country_Android_App")
+            .setDisplay(Display.DIALOG)
+            .start()
 
         handler.post(flagAnimationRunnable)
 
