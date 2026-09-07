@@ -33,12 +33,7 @@ class PlayingActivity(): AppCompatActivity() {
 
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
-                // Re-launch InitialActivity explicitly
-                val intent = Intent(this@PlayingActivity, CategoryActivity::class.java).apply {
-                    flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
-                }
-                startActivity(intent)
-                finish()
+                showExitDialog()
             }
         })
 

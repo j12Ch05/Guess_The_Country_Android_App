@@ -43,7 +43,6 @@ android {
 
 dependencies {
     implementation(libs.androidx.core.ktx)
-    implementation("com.github.javiersantos:AppUpdater:2.7")
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)

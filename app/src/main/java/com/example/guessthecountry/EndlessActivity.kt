@@ -36,11 +36,7 @@ class EndlessActivity(): AppCompatActivity() {
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
                 // Re-launch InitialActivity explicitly
-                val intent = Intent(this@EndlessActivity, MainActivity::class.java).apply {
-                    flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
-                }
-                startActivity(intent)
-                finish()
+               showExitDialog()
             }
         })
 
