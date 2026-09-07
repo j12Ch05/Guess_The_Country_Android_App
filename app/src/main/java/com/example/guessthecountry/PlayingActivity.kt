@@ -11,12 +11,14 @@ import com.example.guessthecountry.databinding.ActivityPlayingBinding
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.json.JSONArray
+import kotlin.math.max
 
 class PlayingActivity(): AppCompatActivity() {
     private lateinit var binding: ActivityPlayingBinding
     private val countries:List<Map<String,String>> by lazy { gettingData() }
     private lateinit var  answer:Map<String,String>
     private var currScore: Int = 0
+
     private val used: ArrayList<String?> = arrayListOf()
 
 
@@ -25,6 +27,7 @@ class PlayingActivity(): AppCompatActivity() {
         binding = ActivityPlayingBinding.inflate(layoutInflater)
         setContentView(binding.root)
         val diff = intent.getStringExtra("diff")
+        val num = intent.getStringExtra("num")
 
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
@@ -43,6 +46,15 @@ class PlayingActivity(): AppCompatActivity() {
             "3" -> binding.title.text = "Hard"
             "4" -> binding.title.text = "Very Hard"
         }
+
+        var maxScore:Int = 0
+        when(num){
+            "10" -> maxScore = 10
+            "20" -> maxScore = 20
+            "30" -> maxScore = 30
+        }
+        binding.currentScore.text = "${currScore.toString()}/$num"
+
         loadQuestion(diff)
         val buttons = listOf(binding.btAns1,binding.btAns2,binding.btAns3,binding.btAns4)
 
@@ -53,12 +65,12 @@ class PlayingActivity(): AppCompatActivity() {
 
                 if(selection == correctAnswer){
                     currScore++
-                    if(currScore == 10){
+                    if(currScore == maxScore){
                         val intent: Intent = Intent(this, CategoryActivity::class.java)
                         startActivity(intent)
                         finish()
                     }
-                    binding.currentScore.text = "${currScore.toString()}/10"
+                    binding.currentScore.text = "${currScore.toString()}/$num"
                     loadQuestion(diff)
                 }
                 else{

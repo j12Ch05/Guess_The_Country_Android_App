@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="24dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="#223843">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Number of Countries"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bt1"
+            android:layout_width="175dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:text="10"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            app:backgroundTint="#3C7785"
+            app:cornerRadius="12dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bt2"
+            android:layout_width="175dp"
+            android:layout_height="60dp"
+            android:text="20"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            app:backgroundTint="#3C7785"
+            app:cornerRadius="12dp"/>
+
+        <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt3"
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:text="30"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        app:backgroundTint="#3C7785"
+        app:cornerRadius="12dp"/>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
