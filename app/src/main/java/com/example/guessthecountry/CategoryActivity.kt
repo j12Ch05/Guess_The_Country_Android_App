@@ -50,6 +50,8 @@ class CategoryActivity : AppCompatActivity() {
             }
         })
 
+        binding.btnExit.setOnClickListener { v -> showExitDialog() }
+
         val buttons = listOf(binding.btEasy,binding.btMedium,binding.btHard,binding.btVeryHard)
 
         for(button in buttons){
@@ -63,6 +65,25 @@ class CategoryActivity : AppCompatActivity() {
             }
         }
 
+    }
+
+    private fun showExitDialog(){
+        val dialogView = layoutInflater.inflate(R.layout.dialog_exit,null)
+
+        val dialog = AlertDialog.Builder(this).setView(dialogView).create()
+
+        val btNo = dialogView.findViewById<Button>(R.id.btNo)
+        val btYes = dialogView.findViewById<Button>(R.id.btYes)
+
+        btYes.setOnClickListener {
+            val intent = Intent(this@CategoryActivity, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        btNo.setOnClickListener { dialog.dismiss() }
+
+        dialog.show()
     }
 
     private fun showCountSelectDialog(diff:String){

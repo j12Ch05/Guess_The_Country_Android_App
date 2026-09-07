@@ -4,6 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.widget.Button
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.guessthecountry.databinding.ActivityMainBinding
 import java.lang.reflect.Field
@@ -36,6 +38,20 @@ class MainActivity : AppCompatActivity() {
 
         binding.btStart.setOnClickListener { gotoCategory() }
         binding.btEndless.setOnClickListener { gotoEndless() }
+        binding.btnExit.setOnClickListener { v -> showExitDialog() }
+    }
+
+    private fun showExitDialog(){
+        val dialogView = layoutInflater.inflate(R.layout.dialog_exit,null)
+
+        val dialog = AlertDialog.Builder(this).setView(dialogView).create()
+
+        val btNo = dialogView.findViewById<Button>(R.id.btNo)
+        val btYes = dialogView.findViewById<Button>(R.id.btYes)
+
+        btYes.setOnClickListener { finish() }
+        btNo.setOnClickListener { dialog.dismiss() }
+        dialog.show()
     }
 
     private fun gotoCategory() {

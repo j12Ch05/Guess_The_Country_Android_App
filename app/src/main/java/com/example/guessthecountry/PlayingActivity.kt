@@ -4,7 +4,9 @@ import android.content.Intent
 import android.content.res.ColorStateList
 import android.graphics.Color
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.OnBackPressedCallback
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.example.guessthecountry.databinding.ActivityPlayingBinding
@@ -55,6 +57,7 @@ class PlayingActivity(): AppCompatActivity() {
         }
         binding.currentScore.text = "${currScore.toString()}/$num"
 
+        binding.btnExit.setOnClickListener { v ->  showExitDialog() }
         loadQuestion(diff)
         val buttons = listOf(binding.btAns1,binding.btAns2,binding.btAns3,binding.btAns4)
 
@@ -91,6 +94,25 @@ class PlayingActivity(): AppCompatActivity() {
             }
         }
 
+    }
+
+    private fun showExitDialog(){
+        val dialogView = layoutInflater.inflate(R.layout.dialog_exit,null)
+
+        val dialog = AlertDialog.Builder(this).setView(dialogView).create()
+
+        val btNo = dialogView.findViewById<Button>(R.id.btNo)
+        val btYes = dialogView.findViewById<Button>(R.id.btYes)
+
+        btYes.setOnClickListener {
+            val intent = Intent(this@PlayingActivity, CategoryActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        btNo.setOnClickListener { dialog.dismiss() }
+
+        dialog.show()
     }
 
     private fun loadQuestion(dif:String?){
