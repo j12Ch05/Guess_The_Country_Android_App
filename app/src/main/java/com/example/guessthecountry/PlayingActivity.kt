@@ -68,6 +68,7 @@ class PlayingActivity(): AppCompatActivity() {
                     currScore++
 
                     if(currScore == maxScore){
+                        binding.currentScore.text = "${currScore.toString()}/$countScore"
                         showWinDialog()
                         return@setOnClickListener
                     }
@@ -85,7 +86,10 @@ class PlayingActivity(): AppCompatActivity() {
                 }
                 if(countScore == maxScore){
                     binding.currentScore.text = "${currScore.toString()}/$countScore"
-                    showLoseDialog()
+                    when{
+                        currScore >= maxScore/2 -> showMidDialog()
+                        else -> showLoseDialog()
+                    }
                     return@setOnClickListener
 
                 }
@@ -112,6 +116,22 @@ class PlayingActivity(): AppCompatActivity() {
 
         btNo.setOnClickListener { dialog.dismiss() }
 
+        dialog.show()
+    }
+
+    private fun showMidDialog(){
+        val dialogView = layoutInflater.inflate(R.layout.dialog_good,null)
+        val dialog = AlertDialog.Builder(this).setView(dialogView).create()
+
+        val btOK = dialogView.findViewById<Button>(R.id.btOK)
+        val result = dialogView.findViewById<TextView>(R.id.result)
+
+        result.text = "You did good!\nYou got: $currScore/$countScore"
+        btOK.setOnClickListener {
+            val intent: Intent = Intent(this, CategoryActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
         dialog.show()
     }
 
