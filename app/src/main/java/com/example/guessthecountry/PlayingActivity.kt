@@ -20,6 +20,7 @@ class PlayingActivity(): AppCompatActivity() {
     private val countries:List<Map<String,String>> by lazy { gettingData() }
     private lateinit var  answer:Map<String,String>
     private var currScore: Int = 0
+    private var countScore:Int = 0
 
     private val used: ArrayList<String?> = arrayListOf()
 
@@ -37,12 +38,7 @@ class PlayingActivity(): AppCompatActivity() {
             }
         })
 
-        when(diff){
-            "1" -> binding.title.text = "Easy"
-            "2" -> binding.title.text = "Medium"
-            "3" -> binding.title.text = "Hard"
-            "4" -> binding.title.text = "Very Hard"
-        }
+
 
         var maxScore:Int = 0
         when(num){
@@ -50,7 +46,13 @@ class PlayingActivity(): AppCompatActivity() {
             "20" -> maxScore = 20
             "30" -> maxScore = 30
         }
-        binding.currentScore.text = "${currScore.toString()}/$num"
+        when(diff){
+            "1" -> binding.title.text = "Easy($num)"
+            "2" -> binding.title.text = "Medium($num)"
+            "3" -> binding.title.text = "Hard($num)"
+            "4" -> binding.title.text = "Very Hard($num)"
+        }
+        binding.currentScore.text = "${currScore.toString()}/$countScore"
 
         binding.btnExit.setOnClickListener { v ->  showExitDialog() }
         loadQuestion(diff)
@@ -58,6 +60,7 @@ class PlayingActivity(): AppCompatActivity() {
 
         for(button in buttons){
             button.setOnClickListener {
+                countScore ++
                 val selection = button.text.toString()
                 val correctAnswer = answer["country"]
 
@@ -67,25 +70,28 @@ class PlayingActivity(): AppCompatActivity() {
                         val intent: Intent = Intent(this, CategoryActivity::class.java)
                         startActivity(intent)
                         finish()
+                        return@setOnClickListener
                     }
-                    binding.currentScore.text = "${currScore.toString()}/$num"
-                    loadQuestion(diff)
+
                 }
                 else{
                     val redColor = Color.parseColor("#8F0404")
                     button.backgroundTintList = ColorStateList.valueOf(redColor)
                     lifecycleScope.launch {
 
-                        delay(500)
-
-
-                        val intent = Intent(this@PlayingActivity, CategoryActivity::class.java)
-                        startActivity(intent)
-
-
-                        finish()
+                        delay(200)
+                        val redColor = Color.parseColor("#1E3E47")
+                        button.backgroundTintList = ColorStateList.valueOf(redColor)
                     }
                 }
+                if(countScore == maxScore){
+                    val intent: Intent = Intent(this, CategoryActivity::class.java)
+                    startActivity(intent)
+                    finish()
+                    return@setOnClickListener
+                }
+                binding.currentScore.text = "${currScore.toString()}/$countScore"
+                loadQuestion(diff)
             }
         }
 
