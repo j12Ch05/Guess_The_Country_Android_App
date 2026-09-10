@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:text="Easy"
             android:textColor="#FFFFFF"
-            android:textSize="40sp" />
+            android:textSize="35sp" />
 
         <TextView
             android:id="@+id/currentScore"
@@ -82,12 +82,12 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btAns1"
-        android:layout_width="255dp"
+        android:layout_width="285dp"
         android:layout_height="60dp"
         android:layout_marginTop="20dp"
         android:text="Answer 1"
         android:textColor="#FFFFFF"
-        android:textSize="22sp"
+        android:textSize="18sp"
         android:backgroundTint="#1E3E47"
         app:cornerRadius="12dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -96,12 +96,12 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btAns2"
-        android:layout_width="255dp"
+        android:layout_width="285dp"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
         android:text="Answer 2"
         android:textColor="#FFFFFF"
-        android:textSize="22sp"
+        android:textSize="18sp"
         android:backgroundTint="#1E3E47"
         app:cornerRadius="12dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -111,12 +111,12 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btAns3"
-        android:layout_width="255dp"
+        android:layout_width="285dp"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
         android:text="Answer 3"
         android:textColor="#FFFFFF"
-        android:textSize="22sp"
+        android:textSize="18sp"
         android:backgroundTint="#1E3E47"
         app:cornerRadius="12dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -125,12 +125,12 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btAns4"
-        android:layout_width="255dp"
+        android:layout_width="285dp"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
         android:text="Answer 4"
         android:textColor="#FFFFFF"
-        android:textSize="22sp"
+        android:textSize="18sp"
         android:backgroundTint="#1E3E47"
         app:cornerRadius="12dp"
         app:layout_constraintEnd_toEndOf="parent"
