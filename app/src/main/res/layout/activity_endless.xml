@@ -22,34 +22,54 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="#FFFFFF" />
-
-    <TextView
-        android:id="@+id/high"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="40dp"
-        android:layout_marginTop="25dp"
-        android:textColor="#FFFFFF"
-        android:text="High Score"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
-
-    <TextView
-        android:id="@+id/highScore"
+    <LinearLayout
+        android:id="@+id/lin1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="55dp"
         android:gravity="center"
-        android:text="0"
-        android:textColor="#FFFFFF"
-        android:textSize="43dp"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/high"/>
+        app:layout_constraintTop_toTopOf="parent">
 
+        <TextView
+            android:id="@+id/curr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score: "
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/currentScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" / High Score:"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/highScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+
+
+    </LinearLayout>
     <androidx.cardview.widget.CardView
         android:id = "@+id/flag"
         android:layout_width="240dp"
@@ -59,7 +79,7 @@
         app:cardElevation="2dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/highScore">
+        app:layout_constraintTop_toBottomOf="@id/lin1">
 
         <ImageView
             android:id="@+id/flagImage"
@@ -72,18 +92,7 @@
 
     </androidx.cardview.widget.CardView>
 
-    <TextView
-        android:id="@+id/currentScore"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="0"
-        android:gravity="center"
-        android:textColor="#FFFFFF"
-        android:textSize="42sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/flag"/>
+
 
 
     <com.google.android.material.button.MaterialButton
@@ -98,7 +107,7 @@
         app:cornerRadius="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/currentScore"/>
+        app:layout_constraintTop_toBottomOf="@id/flag"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btAns2"
