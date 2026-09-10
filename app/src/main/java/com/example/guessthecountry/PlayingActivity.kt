@@ -64,10 +64,9 @@ class PlayingActivity(): AppCompatActivity() {
                 countScore ++
                 val selection = button.text.toString()
                 val correctAnswer = answer["country"]
-
                 if(selection == correctAnswer){
                     currScore++
-                    binding.currentScore.text = "${currScore.toString()}/$countScore"
+
                     if(currScore == maxScore){
                         showWinDialog()
                         return@setOnClickListener
@@ -88,6 +87,7 @@ class PlayingActivity(): AppCompatActivity() {
                     binding.currentScore.text = "${currScore.toString()}/$countScore"
                     showLoseDialog()
                     return@setOnClickListener
+
                 }
 
                 loadQuestion(diff)
@@ -147,6 +147,7 @@ class PlayingActivity(): AppCompatActivity() {
 
     private fun loadQuestion(dif:String?){
         var buttonNumber:Int = 0
+        binding.currentScore.text = "${currScore.toString()}/$countScore"
 
         if(countries.isNotEmpty()){
             answer = countries.filter { it["difficulty"] == dif }.filterNot { it["id"] in used }.random()
