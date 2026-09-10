@@ -5,6 +5,7 @@ import android.content.res.ColorStateList
 import android.graphics.Color
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -66,10 +67,9 @@ class PlayingActivity(): AppCompatActivity() {
 
                 if(selection == correctAnswer){
                     currScore++
+                    binding.currentScore.text = "${currScore.toString()}/$countScore"
                     if(currScore == maxScore){
-                        val intent: Intent = Intent(this, CategoryActivity::class.java)
-                        startActivity(intent)
-                        finish()
+                        showWinDialog()
                         return@setOnClickListener
                     }
 
@@ -85,12 +85,11 @@ class PlayingActivity(): AppCompatActivity() {
                     }
                 }
                 if(countScore == maxScore){
-                    val intent: Intent = Intent(this, CategoryActivity::class.java)
-                    startActivity(intent)
-                    finish()
+                    binding.currentScore.text = "${currScore.toString()}/$countScore"
+                    showLoseDialog()
                     return@setOnClickListener
                 }
-                binding.currentScore.text = "${currScore.toString()}/$countScore"
+
                 loadQuestion(diff)
             }
         }
@@ -113,6 +112,36 @@ class PlayingActivity(): AppCompatActivity() {
 
         btNo.setOnClickListener { dialog.dismiss() }
 
+        dialog.show()
+    }
+
+    private fun showLoseDialog(){
+        val dialogView = layoutInflater.inflate(R.layout.dialog_lose,null)
+        val dialog = AlertDialog.Builder(this).setView(dialogView).create()
+
+        val btOK = dialogView.findViewById<Button>(R.id.btOK)
+        val result = dialogView.findViewById<TextView>(R.id.result)
+
+        result.text = "You Lost!\nYou got: $currScore/$countScore"
+        btOK.setOnClickListener {
+            val intent: Intent = Intent(this, CategoryActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        dialog.show()
+    }
+
+    private fun showWinDialog(){
+        val dialogView = layoutInflater.inflate(R.layout.dialog_win,null)
+        val dialog = AlertDialog.Builder(this).setView(dialogView).create()
+
+        val btOK = dialogView.findViewById<Button>(R.id.btOK)
+
+        btOK.setOnClickListener {
+            val intent: Intent = Intent(this, CategoryActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
         dialog.show()
     }
 
